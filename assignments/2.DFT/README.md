@@ -4,18 +4,18 @@
 Stands for Design For Test. usually means either SCAN or BIST.
 two assignments here.
 
-![rambist.001](/Users/iliagreenblat/vlsifpga/assignments/2.DFT/rambist.001.jpeg)
+![rambist.001](/Users/iliagreenblat/vlsimentor/assignments/2.DFT/rambist.001.jpeg)
 
 
 
 
 
-![rambist.002](/Users/iliagreenblat/vlsifpga/assignments/2.DFT/rambist.002.jpeg)
+![rambist.002](/Users/iliagreenblat/vlsimentor/assignments/2.DFT/rambist.002.jpeg)
 
 ## SCAN
 look at dft graphics (svg or ps). This is simplification of SCAN used in all ASICS.
 
-![dft](/Users/iliagreenblat/vlsifpga/assignments/2.DFT/dft.svg)
+![dft](/Users/iliagreenblat/vlsimentor/assignments/2.DFT/dft.svg)
 
 - first shift register (built with flops) is loaded with some pattern.
 - all this time, "shift" input keeps all flops in shift mode from one to another.

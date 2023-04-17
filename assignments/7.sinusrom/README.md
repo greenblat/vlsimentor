@@ -3,6 +3,7 @@
 
 
 # verilog rom. 
+**use script to generate code**
 
 inputs
 - clk
@@ -13,6 +14,7 @@ outputs
 
 ## idea
 Use genver.py to generate the table itself.
+or use Your own script to generate the verilog
 
 ## pointers
 -  this module can be made by long case statement. 
