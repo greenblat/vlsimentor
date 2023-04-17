@@ -10,6 +10,7 @@ good luck.
 
 my emai is greenblat@mac.com put there just the verilogs, i will take a look and comment. or through whatsup 054-4927322  Also there is no particular order to assignments. In all assignments,  please do best effort to fill undefined holes in specification by taking the most reasonable / simple path.
 
+Every time You read specification of a new module, You will  notice undefined stuff, stuff that makes You ask questions. If there is "obvious" "reasonable" way to resolve it - take it and add a note.
 
 
 
