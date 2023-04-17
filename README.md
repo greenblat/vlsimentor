@@ -5,8 +5,7 @@ mentoring attempt at VLSI / Verilog / RTL / Fpga stuffs.
 **My knowledge. Transfers to You.** 
 **This is in attempt to build  such thing. Please ask questions and serve comments.**
 
-This is private repository, by invitation only.
-
+This repository is updated. do **"git pull"** !
 
 ## Files
 
