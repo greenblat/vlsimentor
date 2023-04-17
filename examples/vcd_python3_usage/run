@@ -1,0 +1,15 @@
+#! /bin/csh -f
+
+
+# will print help stuff on screen
+# vcd_python3    
+
+#just for recorded.nets file
+# vcd_python3 demo.vcd 
+
+# full invokation
+vcd_python3 demo.vcd demo.py
+
+
+
+

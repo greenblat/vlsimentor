@@ -1,0 +1,16 @@
+
+plug_rgf plug_rgf (.pclk(pclk),.presetn(presetn)
+    .pwrite(pwrite),.paddr(paddr),.psel(psel),.penable(penable)
+    ,.prdata(prdata),.prdata_wire(),.pwdata(pwdata),.pstrb(pstrb)
+    ,.pready(pready),.pslverr(pselverr)
+    ,.penable(penable)
+    ,.control(control)
+    ,.status(status)
+    ,.rate(rate)
+    ,.dsc(dsc)
+    ,.bdd(bdd)
+);
+ol)
+    ,.status(status)
+    ,.control2(control2)
+);

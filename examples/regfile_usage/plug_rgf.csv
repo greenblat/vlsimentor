@@ -1,0 +1,7 @@
+kind,access,width,pos,name,reset,addr,desc
+reg,rw,72, ,control, ,0x0,"this is very important register"
+reg,ro,32, ,status, ,0xc,"read only register"
+reg,rw,11, ,control2, ,0x10,"fielded register, no need for width here"
+field,rw,6,[5:0],rate, ,,"baud rate"
+field,rw,1,[6:6],dsc, ,,
+field,rw,4,[10:7],bdd, ,,

@@ -1,0 +1,12 @@
+@53: info: apb write addr=4 wdata=5
+@54: info: apb write addr=4 wdata=5
+@56: info: apb write addr=8 wdata=287445525
+@57: info: apb write addr=8 wdata=287445525
+@59: info: apb write addr=12 wdata=84281096
+@60: info: apb write addr=12 wdata=84281096
+@62: info: apb write addr=16 wdata=84281096
+@63: info: apb write addr=16 wdata=84281096
+@65: info: apb write addr=20 wdata=353637138
+@66: info: apb write addr=20 wdata=353637138
+@161: info: apb write addr=0 wdata=1
+@162: info: apb write addr=0 wdata=1

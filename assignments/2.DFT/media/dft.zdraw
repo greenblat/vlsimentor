@@ -1,0 +1,109 @@
+schematic dft
+inst flop flop_0 xy=25.5,4.0 rot=r90
+inst xor2 xor2_0 xy=29.0,16.5
+inst nand2 nand2_0 xy=38.0,7.5
+inst nor2 nor2_0 xy=38.0,15.5
+inst xor2 xor2_1 xy=38.0,11.5
+inst xor2 xor2_2 xy=29.5,6.5
+inst flop flop_1 xy=25.5,9.0 rot=r90
+inst flop flop_2 xy=25.5,13.5 rot=r90
+inst flop flop_3 xy=25.5,18.5 rot=r90
+inst node node_0 xy=24.5,7.5
+inst node node_1 xy=24.5,12.5
+inst node node_2 xy=29.5,12.5
+inst node node_3 xy=24.5,17.5
+inst flop flop_4 xy=25.5,23.0 rot=r90
+inst node node_4 xy=24.5,22.0
+inst node node_5 xy=29.0,22.0
+inst node node_6 xy=36.5,8.5
+inst node node_7 xy=36.5,12.5
+inst node node_8 xy=36.5,16.5
+inst node node_9 xy=35.5,18.5
+inst node node_10 xy=35.5,10.5
+inst node node_12 xy=35.5,14.5
+inst flop flop_5 xy=51.5,14.5 rot=r270
+inst mux2 mux2_0 xy=46.5,19.0
+inst mux2 mux2_1 xy=46.5,12.5
+inst mux2 mux2_2 xy=46.5,6.0
+inst flop flop_6 xy=51.5,21.0 rot=r270
+inst flop flop_7 xy=51.5,8.0 rot=r270
+inst node node_13 xy=46.5,18.0
+inst node node_14 xy=46.5,11.5
+inst node node_15 xy=46.5,26.0
+inst input input_0 xy=20.0,1.5
+inst output output_0 xy=52.5,2.0
+inst input input_1 xy=48.5,29.0 rot=r270
+inst input input_2 xy=20.0,24.5
+inst node node_16 xy=21.5,20.0
+inst node node_17 xy=21.5,15.0
+inst node node_18 xy=21.5,10.5
+inst node node_19 xy=55.5,13.0
+inst node node_20 xy=55.5,6.5
+inst node node_21 xy=55.5,19.5
+inst node node_22 xy=21.5,5.5
+inst node node_23 xy=24.5,1.5
+wire wire1 flop_0.q node_0 list=24.5,7.0,24.5,7.5
+wire wire2 flop_1.q node_1 list=24.5,12.0,24.5,12.5
+wire wire3 flop_2.q node_3 list=24.5,16.5,24.5,17.5
+wire wire4 node_0 flop_1.d list=24.5,7.5,24.5,9.0
+wire wire5 node_0 xor2_2.i2 list=24.5,7.5,29.5,7.5
+wire wire6 node_1 flop_2.d list=24.5,12.5,24.5,13.5
+wire wire7 node_1 node_2 list=24.5,12.5,29.5,12.5
+wire wire8 node_2 xor2_2.i1 list=29.5,12.5,29.5,9.5
+wire wire9 node_3 flop_3.d list=24.5,17.5,24.5,18.5
+wire wire10 node_3 xor2_0.i2 list=24.5,17.5,29.0,17.5
+wire wire11 flop_3.q node_4 list=24.5,21.5,24.5,22.0
+wire wire12 node_4 flop_4.d list=24.5,22.0,24.5,23.0
+wire wire13 node_4 node_5 list=24.5,22.0,29.0,22.0
+wire wire14 node_5 xor2_0.i1 list=29.0,22.0,29.0,19.5
+wire wire15 xor2_2.o node_6 list=35.5,8.5,36.5,8.5
+wire wire16 node_6 nand2_0.i2 list=36.5,8.5,38.0,8.5
+wire wire17 node_6 node_7 list=36.5,8.5,36.5,12.5
+wire wire18 node_7 xor2_1.i2 list=36.5,12.5,38.0,12.5
+wire wire20 node_8 nor2_0.i2 list=36.5,16.5,38.0,16.5
+wire wire21 xor2_0.o node_9 list=35.0,18.5,35.5,18.5
+wire wire22 node_9 nor2_0.i1 list=35.5,18.5,38.0,18.5
+wire wire23 node_9 node_12 list=35.5,18.5,35.5,14.5
+wire wire24 node_10 nand2_0.i1 list=35.5,10.5,38.0,10.5
+wire wire26 node_7 node_8 list=36.5,12.5,36.5,16.5
+wire wire27 node_12 node_10 list=35.5,14.5,35.5,10.5
+wire wire28 node_12 xor2_1.i1 list=35.5,14.5,38.0,14.5
+wire wire29 nor2_0.o1 mux2_0.i1 list=44.0,17.5,46.5,20.0
+wire wire30 xor2_1.o mux2_1.i1 list=44.0,13.5,46.5,13.5
+wire wire31 nand2_0.o1 mux2_2.i1 list=44.0,9.5,46.5,7.0
+wire wire32 flop_6.d flop_6.d list=52.5,21.0,52.5,21.0
+wire wire33 mux2_0.o flop_6.d list=50.5,21.0,52.5,21.0
+wire wire34 mux2_1.o flop_5.d list=50.5,14.5,52.5,14.5
+wire wire35 mux2_2.o flop_7.d list=50.5,8.0,52.5,8.0
+wire wire36 flop_6.q node_13 list=52.5,18.0,46.5,18.0
+wire wire37 node_13 mux2_1.i0 list=46.5,18.0,46.5,15.5
+wire wire38 flop_5.q node_14 list=52.5,11.5,46.5,11.5
+wire wire39 node_14 mux2_2.i0 list=46.5,11.5,46.5,9.0
+wire wire40 flop_4.q node_15 list=24.5,26.0,46.5,26.0
+wire wire41 node_15 mux2_0.i0 list=46.5,26.0,46.5,22.0
+wire wire43 flop_7.q output_0 list=52.5,5.0,52.5,2.0
+wire wire44 input_1 mux2_0.s list=48.5,29.0,48.5,23.0
+wire wire45 mux2_0.s mux2_1.s list=48.5,23.0,48.5,16.5
+wire wire46 mux2_1.s mux2_2.s list=48.5,16.5,48.5,10.0
+wire wire47 input_2 flop_4.ck list=20.0,24.5,23.0,24.5
+wire wire48 node_16 flop_3.ck list=21.5,20.0,23.0,20.0
+wire wire49 node_17 flop_2.ck list=21.5,15.0,23.0,15.0
+wire wire50 node_18 flop_1.ck list=21.5,10.5,23.0,10.5
+wire wire51 flop_5.ck node_19 list=54.0,13.0,55.5,13.0
+wire wire52 flop_7.ck node_20 list=54.0,6.5,55.5,6.5
+wire wire53 flop_6.ck node_21 list=54.0,19.5,55.5,19.5
+wire wire54 node_22 flop_0.ck list=21.5,5.5,23.0,5.5
+wire wire55 input_0 node_23 list=20.0,1.5,24.5,1.5
+wire wire56 node_23 flop_0.d list=24.5,1.5,24.5,4.0
+param input_0 name scanin xy=13.2,1.4 rot=r0
+param output_0 name scanout xy=55.7,1.8 rot=r0
+param input_1 name shift xy=47.2,32.5 rot=r0
+param input_2 name clk xy=13.9,24.1 rot=r0
+param node_16 name clk xy=19.2,19.9 rot=r0
+param node_17 name clk xy=18.9,15.2 rot=r0
+param node_18 name clk xy=18.7,11.0 rot=r0
+param node_21 name clk xy=56.6,18.9 rot=r0
+param node_22 name clk xy=18.7,5.9 rot=r0
+param node_19 name clk xy=56.7,12.9 rot=r0
+param node_20 name clk xy=56.8,6.3 rot=r0
+end

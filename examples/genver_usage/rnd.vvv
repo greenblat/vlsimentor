@@ -1,0 +1,15 @@
+#import random
+module rnd (input [7:0] sel, output reg [7:0] rndout);
+
+always @* begin
+    case (sel)
+#for II in range(256):
+#    JJ = random.randint(0,256)
+        II : rndout = JJ;
+#
+        default: rndout = 0;
+    endcase
+end
+endmodule
+
+

@@ -1,0 +1,18 @@
+
+chip plug_rgf  bus=apb addrwid=20 width=32 reset=async empty=0xdeadbeaf
+reg control width=72 access=rw desc="this is very important register"
+reg status  width=32 access=ro desc="read only register"
+// access(can be:  wr ro wo rw_pulse ro_pulse)  
+
+// reg may have fields:
+
+reg control2 access=rw desc="fielded register, no need for width here"
+field rate width=6 desc="baud rate"
+field dsc  width=1 desc"some contro"
+field bdd  width=4 desc"some contro"
+
+
+end
+
+
+

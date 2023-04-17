@@ -1,0 +1,6 @@
+define control 0x0
+define WIDTH_MAP["control"] 12
+define status 0xc
+define WIDTH_MAP["status"] 4
+define control2 0x10
+define WIDTH_MAP["control2"] 4

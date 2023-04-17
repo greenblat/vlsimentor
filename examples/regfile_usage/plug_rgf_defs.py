@@ -1,0 +1,11 @@
+ADDR_MAP = {}
+WIDTH_MAP = {}
+control = 0x0
+ADDR_MAP["control"] = 0x0
+WIDTH_MAP["control"] = 12
+status = 0xc
+ADDR_MAP["status"] = 0xc
+WIDTH_MAP["status"] = 4
+control2 = 0x10
+ADDR_MAP["control2"] = 0x10
+WIDTH_MAP["control2"] = 4

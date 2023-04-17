@@ -1,0 +1,10 @@
+#! /bin/csh -f
+
+
+regfile.py exmp.regfile
+
+
+
+
+
+
