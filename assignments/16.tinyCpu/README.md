@@ -25,6 +25,7 @@
 );
 `
 
+- assume one clock delay from read address to data on all rams.
 - tip: start with 3-4 clocks per instruction. We always can improve afterwards.
 
 

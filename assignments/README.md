@@ -12,6 +12,7 @@ my emai is greenblat@mac.com put there just the verilogs, i will take a look and
 
 Every time You read specification of a new module, You will  notice undefined stuff, stuff that makes You ask questions. If there is "obvious" "reasonable" way to resolve it - take it and add a note.
 
+Each assignment requires a design (module of verilog or hierarchy of them) and testbench to run the design. No one expects full verification, but test of basic functionality.
 
 
 | directory| general idea |
@@ -30,3 +31,6 @@ Every time You read specification of a new module, You will  notice undefined st
 | 12.simple_uart | find UART basic description and give it a shot  |
 | 13.encryption_using_lsfr | XOR between stream of data and LFSR pseudo random.   |
 | 14.majority | basic math tricks  |
+| 15.round_robin | design of fair resource allocation |
+| 16.tinyCpu | design of tiny simple CPU |
+| 17.spacewire | spacewire demo design  |
