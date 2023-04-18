@@ -12,7 +12,7 @@
 100 LLL DDD   : LLL literal added to DDD register
 101 LLL DDD   : jump LLL addresses forward if DDD register is not zero
 110 XXX XXX   : Reserved for future, for now NOP
-111 AAA AAA   : jump to AAAAAA program address
+111 AAA AAA   : jump to AAAAAA program address (A is one bit)
 
 
 
