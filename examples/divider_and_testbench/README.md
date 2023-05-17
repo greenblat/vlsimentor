@@ -22,4 +22,9 @@ It is an attempt to explain how i see good environment. divided clearly into des
 - advanced students can be curious about python verification version.
 
 
-
+## Files
+- **comp**     script to create iverilog (icarus) executable.
+- **dump.vcd**	simnulation waves in VCD format.
+- **rtl/**      verilog files
+- **tb.vvp**	icarus executable
+- **ver.log**   simulation run log
