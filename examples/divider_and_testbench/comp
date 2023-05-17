@@ -1,0 +1,13 @@
+#! /bin/csh -f
+
+ 
+
+iverilog  -Wtimescale  -o tb.vvp -g2012 rtl/tb.v \
+    rtl/divider_unsigned_v1.v  \
+
+vvp   -lver.log tb.vvp 
+
+
+
+# vvp   -M/Users/iliagreenblat/vlsistuff/python-verilog/vpi3 -mvpi3_local -lver.log tb.vvp +SEQ=$1 $2 $3
+
