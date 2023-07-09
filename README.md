@@ -5,6 +5,11 @@ mentoring attempt at VLSI / Verilog / RTL / Fpga stuffs.
 **My knowledge. Transfers to You.** 
 **This is in attempt to build  such thing. Please ask questions and serve comments.**
 
+The assignments here assume basic knowledge of verilog RTL. 
+(RTL = register transfer level, aka synthesizable verilog).
+(GLV = gate level verilog. aka netlist).
+for excelent tutorials on basics: goto **https://hdlbits.01xz.net/wiki/Problem_sets**
+
 This repository is updated. do **"git pull"** !
 
 ## Files
