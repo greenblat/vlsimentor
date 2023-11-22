@@ -1,0 +1,36 @@
+schematic synch0
+inst flop flop_0 xy=10.5,10.5
+inst flop flop_1 xy=15.5,10.5
+inst output output_0 xy=21.0,11.5
+inst flop flop_2 xy=2.5,10.5
+inst node node_0 xy=8.0,11.5
+inst input input_0 xy=12.0,15.0 rot=r270
+inst node node_1 xy=17.0,15.0
+inst node node_2 xy=4.0,15.0
+inst node node_3 xy=0.5,11.5
+inst input input_1 xy=10.5,11.5
+inst vcc vcc_0 xy=6.5,7.5
+geom text flop0 list=11.0,9.0 rot=r0
+geom text flop1 list=15.5,8.8 rot=r0
+geom text DIN list=-0.6,9.2 rot=r0
+geom text must list=1.8,9.2 rot=r0
+geom text come list=4.7,9.2 rot=r0
+geom text from list=-0.2,7.8 rot=r0
+geom text flop list=2.6,7.8 rot=r0
+geom text another list=-0.4,6.3 rot=r0
+geom text domain list=4.1,6.3 rot=r0
+geom text in list=5.5,7.8 rot=r0
+wire wire1 flop_0.q flop_1.d list=13.5,11.5,15.5,11.5
+wire wire2 flop_1.q output_0 list=18.5,11.5,21.0,11.5
+wire wire3 flop_2.q node_0 list=5.5,11.5,8.0,11.5
+wire wire5 input_0 flop_0.ck list=12.0,15.0,12.0,13.0
+wire wire6 input_0 node_1 list=12.0,15.0,17.0,15.0
+wire wire7 node_1 flop_1.ck list=17.0,15.0,17.0,13.0
+wire wire8 node_2 flop_2.ck list=4.0,15.0,4.0,13.0
+wire wire9 node_3 flop_2.d list=0.5,11.5,2.5,11.5
+wire wire4 input_1 flop_0.d list=10.5,11.5,10.5,11.5
+param node_0 name din xy=7.9,12.6 rot=r0
+param output_0 name dout xy=24.2,11.0 rot=r0
+param input_0 name clk xy=11.2,17.7 rot=r0
+param node_2 name old_clk xy=4.2,15.8 rot=r90
+end
