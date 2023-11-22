@@ -34,3 +34,6 @@ Each assignment requires a design (module of verilog or hierarchy of them) and t
 | 15.round_robin | design of fair resource allocation |
 | 16.tinyCpu | design of tiny simple CPU |
 | 17.spacewire | spacewire demo design  |
+| 18.findfirstone | outputs position of first one in input vector |
+| 19.reorderingFifo |  fifo with a twist |
+| 20.floatingpointmultiplier | floating point (32bits) multiplierd design  |

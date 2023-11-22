@@ -14,4 +14,5 @@ s will be the result.
 
 write implementation of this module and simple testbench to test it. 
 
+- implementation can be either pipelined or "run-to-completion"
 
