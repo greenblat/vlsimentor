@@ -37,3 +37,5 @@ Each assignment requires a design (module of verilog or hierarchy of them) and t
 | 18.findfirstone | outputs position of first one in input vector |
 | 19.reorderingFifo |  fifo with a twist |
 | 20.floatingpointmultiplier | floating point (32bits) multiplierd design  |
+| 21.ring_oscillator    | exercise in gate level simulation |
+| 22.synchronizers      |  fast to slow pulse passing synch |

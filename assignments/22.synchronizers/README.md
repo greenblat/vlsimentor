@@ -44,4 +44,4 @@ Implement safe pulse clock domain crossing module.
 
 - There is an inherent problem with fast repeat pulses. Assume this problem doesnt exist.  
 - Check the design works in fast to slow clock crossing and slow-to-fast as well.
-- Realize it takes some time to acomplish the crossing mission. Don't mean the design+verification time.
+- Realize it takes some time to acomplish the crossing mission.  I don't mean the design+verification time, but actual nanoseconds.

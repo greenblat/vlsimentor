@@ -1,5 +1,4 @@
 
-
 * 20. Floating point multitplier
 Read floating point IEEE standard. Partial implementation is asked here.
 
