@@ -16,6 +16,7 @@ This repository is updated. do **"git pull"** !
 
 - LICENSE  : MIT license
 - README.md  : this file
+- getToKnowYou.md : self evaluation questionner. Various apsects of ASIC and FPGA design. Mark the applicable items and see where are Your missing spots..
 - assignments/  : practical coding assigments
 - examples/     : examples of designs and tools usage.
 - tools/        : explanations on various topics

@@ -7,7 +7,7 @@
 4. MarkDown documents: (.md extension) proficiency?  using MD editor (like Typora) ?
 5. Installation of linux tools (especially VLSI CAD ones) ?
 6. Linux zsh, bash, tcsh or none? 
-7. Useful variables (setenv-s) : LD_LIBRARY_PATH, PATH, .... setenv vs set
+7. Useful variables (setenv-s) : LD_LIBRARY_PATH, PATH, display, .... setenv vs set
 8. Scripting languages and applications
 9. Version control tools: open source, SOS, commercials.
 10. Do You have linux on Your laptop?
@@ -20,7 +20,7 @@ Are You:  Active user, Familiar, Over-the-shoulder
 
 
 ## Open Source Tools
-Not enough designers are aware, did You met these?
+Not enough designers are aware, did You meet these?
 1. iverilog
 2. verilator
 3. graphviz (dot)
@@ -30,6 +30,7 @@ Not enough designers are aware, did You met these?
 7. openRoad
 8. draw.io 
 9. wavedrom
+10. register file generator
 
 
 ## Commercials tools
@@ -38,9 +39,12 @@ You: Active use, Used long time ago, Familiar, Over-the-shoulder
 2. Synthesis: Synopsys/Cadence
 3. static timing
 4. linters
-5. FPGA:  Altera/Xilinx/?
-6. TCL scripting for these tools?
-7. How deep these tools buried in EDA environments?
+5. logic equivalence
+6. FPGA:  Altera/Xilinx/?
+7. TCL scripting for these tools?
+8. How deep these tools buried in EDA environments?
+9. Formal verification: Rule checkers.
+10. Version control 
 
 ## Verilog
 I can do these: Can/Did:
@@ -58,7 +62,22 @@ I can do these: Can/Did:
 12. Line Coverage and functional coverage
 13. GateLevel simulation with or without SDF.
 14. Mixed level simulation. if yes, What setup?
+15. difference Synthesizable RTL vs TestBench (non-synthesizable)  verilog
 
+## Backend topics
+1. DFT why? DFT ideas in general
+2. ATPG for scans
+3. BIST for RAMs
+4. Compressed Scan. At speed Scan. 
+5. LVS : logic versus schematic. 
+6. DRC : design rules check (as in layout). 
+7. Antenna : antenna rules check (as in layout). 
+8. 
 
-
-
+## My toolbox
+1. regfile.py: register file generator
+2. zdraw.py:   schematic editor
+3. genver.py :  python based macro pre-processor of verilog
+4. pyver.py  :  verilog code manipulator. 
+5. vcd_python3 : intelligent scan of VCD files 
+6. python-driven-verification:   python-simulator connection through VPI  interface.
