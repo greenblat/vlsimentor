@@ -39,12 +39,15 @@ You: Active use, Used long time ago, Familiar, Over-the-shoulder
 2. Synthesis: Synopsys/Cadence
 3. static timing
 4. linters
-5. logic equivalence
 6. FPGA:  Altera/Xilinx/?
 7. TCL scripting for these tools?
 8. How deep these tools buried in EDA environments?
 9. Formal verification: Rule checkers.
 10. Version control 
+### Backends
+11. logic equivalence
+12. floor planning
+13. place and route:  placement, clock tree, routing.
 
 ## Verilog
 I can do these: Can/Did:
@@ -65,6 +68,9 @@ I can do these: Can/Did:
 15. difference Synthesizable RTL vs TestBench (non-synthesizable)  verilog
 
 ## Backend topics
+
+Partial list of backend activities
+
 1. DFT why? DFT ideas in general
 2. ATPG for scans
 3. BIST for RAMs
@@ -72,12 +78,36 @@ I can do these: Can/Did:
 5. LVS : logic versus schematic. 
 6. DRC : design rules check (as in layout). 
 7. Antenna : antenna rules check (as in layout). 
-8. 
 
 ## My toolbox
+
+Tools i like to use that i maintain.
+
 1. regfile.py: register file generator
 2. zdraw.py:   schematic editor
 3. genver.py :  python based macro pre-processor of verilog
 4. pyver.py  :  verilog code manipulator. 
 5. vcd_python3 : intelligent scan of VCD files 
 6. python-driven-verification:   python-simulator connection through VPI  interface.
+
+
+## Popular talking standards
+
+1. AXI4
+2. APB
+3. AHB
+4. UART
+5. SPI
+6. I2C
+7. JTAG
+8. RGMI (and relatives)
+9. MIPI (whole family)
+10. DDR (PHY and Controller)
+11. USB (many layers: Phy, Controller, upper level)
+12. PCIE (many layers)
+
+## Less popular
+1. CAN-FD CAN-XL
+2. LIN
+3. SPMI
+
