@@ -1,5 +1,7 @@
 # Questions to assess where You are.
 
+Go over the items and check with Yourself, how wide is Your ASIC/FPGA world? People who work years in the same job/company can become oblivious to the world beyond. It can backfire when fired or looking for a new job.
+
 ## Linux
 1. Linux: can You use it? to what level?
 2. Basic linux commands:  alias grep fgrep sed ls chmod cd find 
@@ -8,21 +10,22 @@
 5. Installation of linux tools (especially VLSI CAD ones) ?
 6. Linux zsh, bash, tcsh or none? 
 7. Useful variables (setenv-s) : LD_LIBRARY_PATH, PATH, display, .... setenv vs set
-8. Scripting languages and applications
-9. Version control tools: open source, SOS, commercials.
+8. Scripting languages (tcsh, bash, python, perl,...)  and what were the applications 
+9. Version control tools: open source, commercials like SOS.
 10. Do You have linux on Your laptop?
 
 ## GIT
 Are You:  Active user, Familiar, Over-the-shoulder
     1. git basics
-    2. git tricks
-    3. git frustrations
+        2. git tricks
+        3. git frustrations
+        3. git wrapped around with company specific wraps.
 
 
 ## Open Source Tools
-Not enough designers are aware, did You meet these?
-1. iverilog
-2. verilator
+Not enough designers are aware, did You meet these? 
+1. iverilog  (icarus)
+2. verilator (more advanced)
 3. graphviz (dot)
 4. gtkwave / dinotrace
 5. yosys
@@ -33,7 +36,7 @@ Not enough designers are aware, did You meet these?
 10. register file generator
 
 
-## Commercials tools
+## Commercial tools
 You: Active use, Used long time ago, Familiar, Over-the-shoulder
 1. Verilog simulator: Synopsys/Cadence/Mentor/Aldec
 2. Synthesis: Synopsys/Cadence
@@ -50,26 +53,28 @@ You: Active use, Used long time ago, Familiar, Over-the-shoulder
 13. place and route:  placement, clock tree, routing.
 
 ## Verilog
-I can do these: Can/Did:
+I can do these: Can You? Did You?
 1.  write control module (State machines and such).
 2.  write arithmetic module.
 3.  write rom like module.
 4.  integration of IPs.
 5.  integration of whole chip, including IOs..
 6.  configuration and generation of IP from cadence, synopsys or others.
-7. Generated code by script. If yes, examples.
-8. if You put code into open source(GitHub) - examples.
-9. Downloaded verilog modules from open source.
-10. build test bench and used it to debug modules.
-11. did verification with SV-UVm or E-Verisity
-12. Line Coverage and functional coverage
-13. GateLevel simulation with or without SDF.
-14. Mixed level simulation. if yes, What setup?
-15. difference Synthesizable RTL vs TestBench (non-synthesizable)  verilog
+7.  Generated code by script. If yes, examples.
+8.  if You put code into open source(GitHub) - examples.
+9.  Downloaded verilog modules from open source.
+10.  build test bench and used it to debug modules.
+11.  did verification with SV-UVm or E-Verisity
+12.  Line Coverage and functional coverage
+13.  GateLevel simulation with or without SDF.
+14.  Mixed level simulation. if yes, What setup?
+15.  difference Synthesizable RTL vs TestBench (non-synthesizable)  verilog
+16.  FPGA based verification or Palladium.
+17.  Post silicon validation and bringup.
 
 ## Backend topics
 
-Partial list of backend activities
+Partial list of backend activities (How familiar are You with the below?)
 
 1. DFT why? DFT ideas in general
 2. ATPG for scans
@@ -90,10 +95,11 @@ Tools i like to use that i maintain.
 5. vcd_python3 : intelligent scan of VCD files 
 6. python-driven-verification:   python-simulator connection through VPI  interface.
 
+## Popular comm standards
 
-## Popular talking standards
+(Good to know stuff)
 
-1. AXI4
+1. AXI4 / AXI STREAM
 2. APB
 3. AHB
 4. UART
@@ -105,9 +111,18 @@ Tools i like to use that i maintain.
 10. DDR (PHY and Controller)
 11. USB (many layers: Phy, Controller, upper level)
 12. PCIE (many layers)
+13. ethernet frames structures.
+14. 8/10 64/67 encodings
 
 ## Less popular
 1. CAN-FD CAN-XL
 2. LIN
 3. SPMI
+
+## Encryption / Signatures
+ - AES
+ - tripple DES
+ - XTEA
+
+
 
