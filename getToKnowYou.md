@@ -69,8 +69,9 @@ I can do these: Can You? Did You?
 13.  GateLevel simulation with or without SDF.
 14.  Mixed level simulation. if yes, What setup?
 15.  difference Synthesizable RTL vs TestBench (non-synthesizable)  verilog
-16.  FPGA based verification or Palladium.
-17.  Post silicon validation and bringup.
+16.  write rtl code with flops. wrote rtl code with latches.
+17.  FPGA based verification or Palladium.
+18.  Post silicon validation and bringup.
 
 ## Backend topics
 
