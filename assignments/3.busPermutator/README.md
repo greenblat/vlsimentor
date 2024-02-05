@@ -55,3 +55,5 @@ the testbench should be something like this (or take this):
 `// "X" value is your responsibility`
 `endmodule`
 
+## cheat sheet
+i added rtl directory with my solution, testbench and python simulation driver. 
