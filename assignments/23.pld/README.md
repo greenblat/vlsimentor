@@ -1,6 +1,7 @@
 
 # PLD 30
 porgammable logic device. May be viewed as FPGA's little sibling.
+**DONT SHARE YOUR DESIGN with me. I am working on it too!!!!**
 
 ## Background
 In every VLSI project, some degree of field programmability is desired.

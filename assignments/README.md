@@ -1,5 +1,5 @@
 **Please use .md viewer, like Typora or similar**
-#Assignments
+# Assignments
 various level verilog exersizes.
 
 some are simple, some are tricky.
@@ -8,11 +8,11 @@ the numbering order is almost random, as ideas came into my head.
 write RTL, write testbench,  test it in real simulator. 
 good luck.
 
-my emai is greenblat@mac.com put there just the verilogs, i will take a look and comment. or through whatsup 054-4927322  Also there is no particular order to assignments. In all assignments,  please do best effort to fill undefined holes in specification by taking the most reasonable / simple path.
+my emai is greenblat@mac.com put there just the verilogs, i will take a look and comment.  Also there is no particular order to assignments. In all assignments,  please do best effort to fill undefined holes in specification by taking the most reasonable / simple path.
 
 Every time You read specification of a new module, You will  notice undefined stuff, stuff that makes You ask questions. If there is "obvious" "reasonable" way to resolve it - take it and add a note.
 
-Each assignment requires a design (module of verilog or hierarchy of them) and testbench to run the design. No one expects full verification, but test of basic functionality.
+Each assignment requires a design (module of verilog or hierarchy of them) and testbench to run the design. No one expects full verification (except maybe You) , but test of basic functionality.
 
 
 | directory| general idea |
@@ -39,3 +39,6 @@ Each assignment requires a design (module of verilog or hierarchy of them) and t
 | 20.floatingpointmultiplier | floating point (32bits) multiplierd design  |
 | 21.ring_oscillator    | exercise in gate level simulation |
 | 22.synchronizers      |  fast to slow pulse passing synch |
+| 23.PLD      |  prgorammable logic device |
+| 24.latches      |  latch based register file |
+| 25.sharedFifo      |  four wide fifos share wide entries |
