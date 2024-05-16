@@ -1,0 +1,3 @@
+VCD info: dumpfile dump.vcd opened for output.
+ Running SEQ=                                                                                                                                 .
+./tester.include:11297: $finish called at 13015000000 (1ps)

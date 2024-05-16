@@ -1,0 +1,11 @@
+#! /bin/csh -f
+/bin/rm tb.vvp
+
+iverilog  -Wtimescale  -o tb.vvp -g2012 \
+    tb.v \
+    ../rtl/async2fifo.v  \
+    ../rtl/async_stage.v  \
+    ../rtl/synchronizer_level.v \
+
+
+

@@ -1,0 +1,118 @@
+module: tb tb
+net:   tb.clk [1] = 1     // clk
+net:   tb.rst_n [1] = 1     // rst_n
+net:   tb.wfull [1] = 0     // wfull
+net:   tb.rempty [1] = 1     // rempty
+net:   tb.rdata [32] = 00000000000000000000000000000000     // rdata
+reg:   ID [32] = 00000000000000000000000000000000 // ID
+reg:   Index [32] = 00000000000000000000000000000000 // Index
+reg:   mark [32] = 00000000000000000000000000000000 // mark
+reg:   marker [32] = 00000000000000000000000000000000 // marker
+reg:   marker0 [32] = 00000000000000000000000000000000 // marker0
+reg:   marker1 [32] = 00000000000000000000000000000000 // marker1
+reg:   marker2 [32] = 00000000000000000000000000000000 // marker2
+reg:   marker3 [32] = 00000000000000000000000000000000 // marker3
+reg:   markstr [256] = 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 // markstr
+reg:   rclk [1] = 1 // rclk
+reg:   readx [1] = 0 // readx
+reg:   rst_nr [1] = 1 // rst_nr
+reg:   rst_nw [1] = 1 // rst_nw
+reg:   testname [1024] = 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 // testname
+reg:   wclk [1] = 1 // wclk
+reg:   wdata [32] = 00000000000000000000000000000000 // wdata
+reg:   writex [1] = 0 // writex
+son:   tb.dut
+module: async2fifo tb.dut
+net:   tb.dut.rclk [1] = 1     // rclk
+net:   tb.dut.readx [1] = 0     // readx
+net:   tb.dut.readx0 [1] = 0     // readx0
+net:   tb.dut.readx1 [1] = 0     // readx1
+net:   tb.dut.rst_nr [1] = 1     // rst_nr
+net:   tb.dut.rst_nw [1] = 1     // rst_nw
+net:   tb.dut.sign_version [64] = 0000000000000001101001011010111100100011001000100000011000100011     // sign_version
+net:   tb.dut.wclk [1] = 1     // wclk
+net:   tb.dut.wdata [32] = 00000000000000000000000000000000     // wdata
+net:   tb.dut.wfull [1] = 0     // wfull
+net:   tb.dut.writex [1] = 0     // writex
+net:   tb.dut.writex0 [1] = 0     // writex0
+net:   tb.dut.writex1 [1] = 0     // writex1
+net:   tb.dut.wfull1 [1] = 0     // wfull1
+net:   tb.dut.wfull0 [1] = 0     // wfull0
+net:   tb.dut.rempty1 [1] = 1     // rempty1
+net:   tb.dut.rempty0 [1] = 1     // rempty0
+net:   tb.dut.rempty [1] = 1     // rempty
+net:   tb.dut.rdata1 [32] = 00000000000000000000000000000000     // rdata1
+net:   tb.dut.rdata0 [32] = 00000000000000000000000000000000     // rdata0
+net:   tb.dut.rdata [32] = 00000000000000000000000000000000     // rdata
+reg:   rptr [1] = 0 // rptr
+reg:   wptr [1] = 0 // wptr
+son:   tb.dut.stage0
+son:   tb.dut.stage1
+module: async_stage tb.dut.stage0
+net:   tb.dut.stage0.rclk [1] = 1     // rclk
+net:   tb.dut.stage0.readx [1] = 0     // readx
+net:   tb.dut.stage0.rempty [1] = 1     // rempty
+net:   tb.dut.stage0.rst_nr [1] = 1     // rst_nr
+net:   tb.dut.stage0.rst_nw [1] = 1     // rst_nw
+net:   tb.dut.stage0.sign_version [64] = 0000000000000001001001111100000100010001000001100000001100100011     // sign_version
+net:   tb.dut.stage0.wclk [1] = 1     // wclk
+net:   tb.dut.stage0.wdata [32] = 00000000000000000000000000000000     // wdata
+net:   tb.dut.stage0.wfull [1] = 0     // wfull
+net:   tb.dut.stage0.writex [1] = 0     // writex
+net:   tb.dut.stage0.wtoken_sync [1] = 0     // wtoken_sync
+net:   tb.dut.stage0.rtoken_sync [1] = 0     // rtoken_sync
+reg:   LVL_rdata [32] = 00000000000000000000000000000000 // LVL_rdata
+reg:   rtoken [1] = 0 // rtoken
+reg:   wtoken [1] = 0 // wtoken
+son:   tb.dut.stage0.syncr
+son:   tb.dut.stage0.syncw
+module: synchronizer_level tb.dut.stage0.syncr
+net:   tb.dut.stage0.syncr.clk [1] = 1     // clk
+net:   tb.dut.stage0.syncr.din [1] = 0     // din
+net:   tb.dut.stage0.syncr.dout [1] = 0     // dout
+net:   tb.dut.stage0.syncr.rst_n [1] = 1     // rst_n
+net:   tb.dut.stage0.syncr.sign_version [64] = 0000000000000000011011101011110100010001000001100000001100100011     // sign_version
+reg:   SYNCFLOP0 [1] = 0 // SYNCFLOP0
+reg:   SYNCFLOP1 [1] = 0 // SYNCFLOP1
+module: synchronizer_level tb.dut.stage0.syncw
+net:   tb.dut.stage0.syncw.clk [1] = 1     // clk
+net:   tb.dut.stage0.syncw.din [1] = 0     // din
+net:   tb.dut.stage0.syncw.dout [1] = 0     // dout
+net:   tb.dut.stage0.syncw.rst_n [1] = 1     // rst_n
+net:   tb.dut.stage0.syncw.sign_version [64] = 0000000000000000011011101011110100010001000001100000001100100011     // sign_version
+reg:   SYNCFLOP0 [1] = 0 // SYNCFLOP0
+reg:   SYNCFLOP1 [1] = 0 // SYNCFLOP1
+module: async_stage tb.dut.stage1
+net:   tb.dut.stage1.rclk [1] = 1     // rclk
+net:   tb.dut.stage1.readx [1] = 0     // readx
+net:   tb.dut.stage1.rempty [1] = 1     // rempty
+net:   tb.dut.stage1.rst_nr [1] = 1     // rst_nr
+net:   tb.dut.stage1.rst_nw [1] = 1     // rst_nw
+net:   tb.dut.stage1.sign_version [64] = 0000000000000001001001111100000100010001000001100000001100100011     // sign_version
+net:   tb.dut.stage1.wclk [1] = 1     // wclk
+net:   tb.dut.stage1.wdata [32] = 00000000000000000000000000000000     // wdata
+net:   tb.dut.stage1.wfull [1] = 0     // wfull
+net:   tb.dut.stage1.writex [1] = 0     // writex
+net:   tb.dut.stage1.wtoken_sync [1] = 0     // wtoken_sync
+net:   tb.dut.stage1.rtoken_sync [1] = 0     // rtoken_sync
+reg:   LVL_rdata [32] = 00000000000000000000000000000000 // LVL_rdata
+reg:   rtoken [1] = 0 // rtoken
+reg:   wtoken [1] = 0 // wtoken
+son:   tb.dut.stage1.syncr
+son:   tb.dut.stage1.syncw
+module: synchronizer_level tb.dut.stage1.syncr
+net:   tb.dut.stage1.syncr.clk [1] = 1     // clk
+net:   tb.dut.stage1.syncr.din [1] = 0     // din
+net:   tb.dut.stage1.syncr.dout [1] = 0     // dout
+net:   tb.dut.stage1.syncr.rst_n [1] = 1     // rst_n
+net:   tb.dut.stage1.syncr.sign_version [64] = 0000000000000000011011101011110100010001000001100000001100100011     // sign_version
+reg:   SYNCFLOP0 [1] = 0 // SYNCFLOP0
+reg:   SYNCFLOP1 [1] = 0 // SYNCFLOP1
+module: synchronizer_level tb.dut.stage1.syncw
+net:   tb.dut.stage1.syncw.clk [1] = 1     // clk
+net:   tb.dut.stage1.syncw.din [1] = 0     // din
+net:   tb.dut.stage1.syncw.dout [1] = 0     // dout
+net:   tb.dut.stage1.syncw.rst_n [1] = 1     // rst_n
+net:   tb.dut.stage1.syncw.sign_version [64] = 0000000000000000011011101011110100010001000001100000001100100011     // sign_version
+reg:   SYNCFLOP0 [1] = 0 // SYNCFLOP0
+reg:   SYNCFLOP1 [1] = 0 // SYNCFLOP1
