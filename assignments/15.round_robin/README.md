@@ -16,5 +16,5 @@ endmodule
 `
 
 - Assume requests come in random order and frequency.
-- Some clocks are empty, some clocks have many requests.
+- Some clocks are have no requests, some clocks have many requests.
 - tip:  {requests,requests}
