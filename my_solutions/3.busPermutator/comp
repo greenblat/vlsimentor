@@ -1,0 +1,14 @@
+ #! /bin/csh -f
+ 
+
+iverilog   -o tb.vvp -g2012 tb.v \
+    rtl/busperm2.v  \
+
+
+
+
+
+#    rtl/swap2.v  \
+
+
+

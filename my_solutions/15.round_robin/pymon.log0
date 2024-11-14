@@ -1,0 +1,21 @@
+@0: info: INCLUDES STARTED
+@0: info: INCLUDES DONE
+@0: info: SUBS []
+@0: info: SEQ 0 ('wait 3', 3)
+@0: info: SEQ 1 ('force requests 1', 4)
+@0: info: SEQ 2 ('waitUntil (grants==1)', 5)
+@0: info: SEQ 3 ('force requests 2', 6)
+@0: info: SEQ 4 ('waitUntil (grants==2)', 7)
+@0: info: SEQ 5 ('force requests 4', 8)
+@0: info: SEQ 6 ('waitUntil (grants==4)', 9)
+@0: info: SEQ 7 ('force requests 15', 10)
+@0: info: SEQ 8 ('waitUntil (grants==4)', 11)
+@0: info: SEQ 9 ('wait 15', 12)
+@0: info: SEQ 10 ('finish', 13)
+@0: info: SEQUENCE 11
+@37: info: >>>>> finished waitUntil ['(', 'grants', '==', 1, ')'] (left 0)   at line 6
+@40: info: >>>>> finished waitUntil ['(', 'grants', '==', 2, ')'] (left 0)   at line 8
+@43: info: >>>>> finished waitUntil ['(', 'grants', '==', 4, ')'] (left 0)   at line 10
+@67: info: >>>>> finished waitUntil ['(', 'grants', '==', 4, ')'] (left 0)   at line 12
+@84: info: finishing on sequence
+@84: info: finishing sequence test.seq seed=0  with errors=0 wrongs=0 corrects=0

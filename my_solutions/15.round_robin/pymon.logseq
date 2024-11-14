@@ -1,0 +1,36 @@
+@31: sequence: wait 3
+@35: sequence: force requests 1
+@36: sequence: waitUntil (grants==1)
+@37: sequence: waitUntil (grants==1)
+@38: sequence: force requests 2
+@39: sequence: waitUntil (grants==2)
+@40: sequence: waitUntil (grants==2)
+@41: sequence: force requests 4
+@42: sequence: waitUntil (grants==4)
+@43: sequence: waitUntil (grants==4)
+@44: sequence: force requests 15
+@45: sequence: waitUntil (grants==4)
+@46: sequence: waitUntil (grants==4)
+@47: sequence: waitUntil (grants==4)
+@48: sequence: waitUntil (grants==4)
+@49: sequence: waitUntil (grants==4)
+@50: sequence: waitUntil (grants==4)
+@51: sequence: waitUntil (grants==4)
+@52: sequence: waitUntil (grants==4)
+@53: sequence: waitUntil (grants==4)
+@54: sequence: waitUntil (grants==4)
+@55: sequence: waitUntil (grants==4)
+@56: sequence: waitUntil (grants==4)
+@57: sequence: waitUntil (grants==4)
+@58: sequence: waitUntil (grants==4)
+@59: sequence: waitUntil (grants==4)
+@60: sequence: waitUntil (grants==4)
+@61: sequence: waitUntil (grants==4)
+@62: sequence: waitUntil (grants==4)
+@63: sequence: waitUntil (grants==4)
+@64: sequence: waitUntil (grants==4)
+@65: sequence: waitUntil (grants==4)
+@66: sequence: waitUntil (grants==4)
+@67: sequence: waitUntil (grants==4)
+@68: sequence: wait 15
+@84: sequence: finish
