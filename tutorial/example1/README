@@ -1,0 +1,16 @@
+
+
+
+1. compile and run.
+        start by typing:  comp
+        then:    simv test0.seq
+2. how many corrects? how many wrongs?
+3. try change the  design, so few fails will happen.
+
+
+comp calls iverilog.
+simv is short script that connects iverilog executable tb.vvp and verilog.py (python) and test sequence.
+
+
+
+
