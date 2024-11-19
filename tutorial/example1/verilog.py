@@ -77,7 +77,7 @@ class driverMonitor(logs.driverClass):
             if (Exp == out):
                 logs.log_correct('0x%x <= 0x%x * 0x%x' % (out,AA,BB))
             else:
-                logs.log_wrong('exp:%0x%x act:0x%x <= 0x%x * 0x%x' % (Exp,out,AA,BB))
+                logs.log_wrong('exp:0x%x act:0x%x <= 0x%x * 0x%x' % (Exp,out,AA,BB))
     
     def action(self,Txt,Orig=[]):
         wrds = Txt.split()
