@@ -1,0 +1,25 @@
+
+
+
+wait 10
+force baudrate 55
+wait 10
+force txdata 0x41
+force write_tx 1
+force write_tx 0
+wait 10
+waitUntil (tx_empty==1)
+
+force txdata 0x42
+force write_tx 1
+force write_tx 0
+wait 100
+waitUntil (tx_empty==1)
+wait 100
+wait 100
+wait 100
+wait 1000
+wait 1000
+wait 1000
+finish
+

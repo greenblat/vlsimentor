@@ -1,0 +1,9 @@
+#! /bin/csh -f
+/bin/rm tb.vvp
+
+iverilog   -o tb.vvp -g2012 \
+    tb.v \
+    uartx2.v  \
+
+
+
