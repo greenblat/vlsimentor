@@ -1,5 +1,3 @@
-
-
 import os,sys,random
 import veri
 
