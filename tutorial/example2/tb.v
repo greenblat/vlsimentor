@@ -21,7 +21,7 @@ reg  clk;
 reg [7:0] control;
 reg  nreset;
 wire  rx_valid;
-wire #30 read_rx = rx_valid;;
+wire #30 read_rx = rx_valid;
 wire  rxd;
 wire [7:0] rxdata;
 wire [7:0] status;
