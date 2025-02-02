@@ -2,7 +2,7 @@
 
 
 # verilog rom. 
-**use script to generate code**
+**use script to generate verilog code**
 
 inputs
 - clk
@@ -12,8 +12,8 @@ outputs
 - sinus[7:0]  0 to 255 : 255 is "1".
 
 ## idea
-Use genver.py to generate the table itself.
-or write Your own script to generate the verilog
+Write python script to generate the verilog module. You can use genver.py to generate it,
+or write your own python script to generate the verilog code.
 
 ## pointers
 -  this module can be made by long case statement. 
