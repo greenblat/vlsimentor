@@ -19,7 +19,14 @@ or write your own python script to generate the verilog code.
 -  this module can be made by long case statement. 
 -  module can be written without clock and reset , or with them, sampling the output.
 
-
+```plaintext
+module sinusrom(  
+    input clk  
+    ,input rst_n  
+    ,input [7:0] angle  
+    ,output [7:0] sinus  
+);
+```
 
 
 
