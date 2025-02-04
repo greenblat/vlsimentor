@@ -24,7 +24,7 @@ parameters
 - **WID** : define width of the data bus.
 - **DEP** : define the depth of the fifo, that is the number of physical entries in the fifo.
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/b2997f3cf87633a6415079eea129ddc7df1bd75177f82381.PNG)
+![](syncfifo.PNG)
 
 Here is a headstart:
 

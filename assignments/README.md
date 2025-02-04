@@ -42,3 +42,6 @@ Each assignment requires a design (module of verilog or hierarchy of them) and t
 | 23.PLD      |  prgorammable logic device |
 | 24.latches      |  latch based register file |
 | 25.sharedFifo      |  four wide fifos share wide entries |
+| 26.delay_line |  variable delay in clocks between data in to data out |
+| 27.uart_baudrate_guess |  listen to uart transmission and guess it's baurate |
+| 28.syncfifo      |  basic syncronous fifo |
