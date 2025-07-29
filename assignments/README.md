@@ -45,3 +45,4 @@ Each assignment requires a design (module of verilog or hierarchy of them) and t
 | 26.delay_line |  variable delay in clocks between data in to data out |
 | 27.uart_baudrate_guess |  listen to uart transmission and guess it's baurate |
 | 28.syncfifo      |  basic syncronous fifo |
+| 29.pattern      |  pattern recognition in stream of bits |
